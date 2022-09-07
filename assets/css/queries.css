@@ -119,6 +119,7 @@ instead 1rem = 1em = 16px */
 
     .btn-mobile-nav {
         display: block;
+        z-index: 99;
     }
 
     .main-nav {
@@ -132,7 +133,7 @@ instead 1rem = 1em = 16px */
         display: flex;
         align-items: center;
         justify-content: center;
-        transition: all 2s ease-out;
+        transition: all 0.5s ease-out;
         /* hide the navigation*/
         /* allows no transition at all with display : none */
         /* 1 hide the element visually */
@@ -268,13 +269,10 @@ instead 1rem = 1em = 16px */
         grid-template-columns: 1fr;
     }
 
-     .cta-text-box {
+    .cta-text-box {
         padding: 3.2rem;
-        
     }
-}
-
-.cta-img-box {
+    .cta-img-box {
         height: 32rem;
         grid-row: 1;
     }
